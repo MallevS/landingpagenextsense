@@ -1,0 +1,128 @@
+.carousel-item {
+    height: 44.5rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+#image1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.plus {
+    font-size: 35px;
+    border-radius: 5px solid blue;
+}
+
+.action{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    padding-bottom: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner h5 {
+    display: inline-block;
+    position: absolute;
+    width: 390px;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 63px;
+    font-weight:bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+    align-items: left;
+    z-index: 1;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+#cart-count {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    background-color: rgb(107, 107, 193);
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  #count {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #cart {
+    position: fixed;
+    top: 25px;
+    right: 80px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 1;
+  }
+
+  .price {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: 70%;
+    left: 25%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-weight:bold;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .price p:first-child {
+    margin-right: 40px;
+    text-decoration: line-through;
+    color: #777;
+  }
+
+  .price p:last-child{
+    color: rgb(107, 107, 193);
+  }
+
+  @media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    .carousel-item {
+    height: 30rem;
+    }
+
+ 
+  
